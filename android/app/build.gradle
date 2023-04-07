@@ -29,6 +29,14 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 android {
     compileSdkVersion 33
     ndkVersion flutter.ndkVersion
+    configurations {
+        all {
+            resolutionStrategy {
+                // force certain dependencies to use the same version
+                force 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+            }
+        }
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
