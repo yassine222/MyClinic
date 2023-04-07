@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "853427270494",
+    "project_id": "myclnic",
+    "storage_bucket": "myclnic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853427270494:android:96ce505b1ebf9a469e95cf",
+        "android_client_info": {
+          "package_name": "testcom.example.testa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853427270494-4gt1acgih3chatsavcc004pkrqbi9pas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFIDWMXOZGV3tghoEweuofD7sALiDpDAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853427270494-4gt1acgih3chatsavcc004pkrqbi9pas.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "853427270494-79q05h3mnd4ghf4afgegr4sig2jjnh2g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "testcom.example.testa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
